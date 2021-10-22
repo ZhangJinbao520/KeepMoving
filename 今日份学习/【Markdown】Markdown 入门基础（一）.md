@@ -15,7 +15,7 @@ Markdown 是一种轻量级的**标记语言（Markup Language）**，可用于�
 - 未来性（能适应未来变化）
 
 ## Markdown 工作原理。
-默认以`.md`或`.Markdown`为扩展名的文件，均视为 Markdown 文件。
+默认以`.md`或`.Markdown`为扩展名的文件，均视为 Markdown 文件。</br>
 Markdown 应用程序使用 **Markdown 处理器**将 Markdown文件输出为 **HTML 格式**。
 <div align="center">
 <img src="https://img-blog.csdnimg.cn/1e42710f8c2b4f36ae9acebfa2c27fb0.png" />
@@ -26,7 +26,7 @@ Markdown 应用程序使用 **Markdown 处理器**将 Markdown文件输出为 **
 
 ## Markdown 有什么卵用？
 ### 网站
-Markdown 最初是为 Web 而设计的。
+Markdown 最初是为 Web 而设计的。</br>
 如果你需要将 Markdown 文件进行转换为网站，可以试试以下工具：
 - [**Jekyll**](http://jekyllcn.com/)： Markdown 网站生成器👍🏻
   由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
@@ -37,15 +37,15 @@ Markdown 最初是为 Web 而设计的。
 - [**Jetpack 插件**](https://jetpack.com/)：专门用于 WordPress
 
 ### 笔记
-在几乎所有方面，Markdown 都是记笔记的理想语法。
+在几乎所有方面，Markdown 都是记笔记的理想语法。</br>
 **💬注意**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。
 
 ### 文档
-Markdown 非常适合编写技术文档。
+Markdown 非常适合编写技术文档。</br>
 可以使用 Markdown 文档创作工具创建 Markdown文件，并将其导出为 PDF 、或 HTML 、或其他格式。
 
 ### 书籍
-想要自行出版小说？建议试试[ Leanpub ](https://leanpub.com/)，它可以将你的 Markdown文件转换为 PDF/EPUB/MOBI 格式的电子书。
+想要自行出版小说？建议试试[ Leanpub ](https://leanpub.com/)，它可以将你的 Markdown文件转换为 PDF/EPUB/MOBI 格式的电子书。</br>
 如果想出版纸质书籍，可以将 PDF 文件上传到类似[ Kindle Direct Publishing ](https://kdp.amazon.com/en_US/)的服务提供商，它们会帮你进行出版💰。
 
 ### 演示文稿
@@ -86,5 +86,5 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - ...
 
 ## 什么是 Markdown 方言？
-由于每个 Markdown 应用程序都会实现稍有不同的 Markdown 语言，这些变体通常称之为 *flavors（方言）*。 
+由于每个 Markdown 应用程序都会实现稍有不同的 Markdown 语言，这些变体通常称之为 *flavors（方言）*。</br>
 所以作为 Markdown 的新手，我的建议是先选择一个基础 Markdown 应用程序，这对于学习 Markdown 基础语法很有帮助。
