@@ -50,7 +50,7 @@ Markdown 最初是为 Web 而设计的。
 **💬注意**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。
 
 ### 文档
-Markdown 非常适合编写技术文档。
+Markdown 非常适合编写技术文档。  
 可以使用 Markdown 文档创作工具创建 Markdown文件，并将其导出为 PDF 、或 HTML 、或其他格式。
 
 ### 书籍
