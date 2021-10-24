@@ -14,6 +14,8 @@
 - 开发者：John Gruber
 ```
 
+
+
 ## Markdown 是什么？
 
 Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ John Gruber ](https://daringfireball.net/projects/markdown/) [^1] 于 2004 年创建，是如今世界最受欢迎的工具之一。
@@ -23,6 +25,8 @@ Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ Joh
 - 易读易写
 - 纯文本
 - 语法简单
+
+
 
 ## Markdown 发展史
 
@@ -36,11 +40,15 @@ Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ Joh
 
 - Aaron Swartz [Markdown](http://www.aaronsw.com/weblog/001189) - 2004 年 3 月 22 日
 
+
+
 ## 为什么要用 Markdown？
 
 - 可移植性（由于是纯文本）
 - 独立性（兼容任何操作系统）
 - 未来性（适应未来变化）
+
+
 
 ## Markdown 工作原理
 
@@ -53,6 +61,8 @@ Markdown 应用程序使用 **Markdown 处理器**将 Markdown文件输出为 <f
 </div>
 
 **💬注意**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
+
+
 
 ## Markdown 有什么卵用？
 
@@ -71,11 +81,15 @@ Markdown 最初是为 Web 而设计的。
 
 > 由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
 
+
+
 ### 笔记
 
 在几乎所有方面，Markdown 都是记笔记的理想语法。
 
 **💬注意**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。
+
+
 
 ### 文档
 
@@ -83,11 +97,15 @@ Markdown 非常适合编写技术文档。
 
 可以使用 Markdown 文档创作工具创建 Markdown文件，并将其导出为 PDF 、或 HTML 、或其他格式。
 
+
+
 ### 书籍
 
 想要自行出版小说？建议试试[ Leanpub ](https://leanpub.com/)，它可以将你的 Markdown 文件转换为 PDF/EPUB/MOBI 格式的电子书。
 
-如果想出版纸质书籍，可以将 PDF 文件上传到类似[ Kindle Direct Publishing ](https://kdp.amazon.com/en_US/)的服务提供商，它们会帮你进行出版💰。
+如果想出版纸质书籍，可以将 PDF 文件上传到类似[ Kindle Direct Publishing ](https://kdp.amazon.com/en_US/)的服务提供商，给💰它们会帮你进行出版。
+
+
 
 ### 演示文稿
 
@@ -100,9 +118,13 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - [Deckset](https://www.deckset.com/)
 - [Marked2](https://marked2app.com/)
 
+
+
 ### 邮件
 
 如果你需要发送大量的电子邮件，并且已经对大多数网站提供的邮件格式控件或模版感觉厌倦，可以使用 Markdown 编写电子邮件，[ Markdown Here ](https://markdown-here.com/)会助你打开新世界的大门。
+
+
 
 ## 都有谁在用 Markdown？
 
@@ -117,6 +139,8 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - [光谷社区](https://www.guozaoke.com/)
 - ...
 
+
+
 ### 代码托管平台
 
 - [GitHub](https://github.com/)
@@ -126,6 +150,8 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - [Coding](https://coding.net/)
 - ...
 
+
+
 ### 开源项目
 
 - README
@@ -134,11 +160,15 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - Wiki
 - ...
 
+
+
 ## 什么是 Markdown 方言？
 
 由于每个 Markdown 应用程序都会实现稍有不同的 Markdown 语言，这些变体通常称之为 *flavors（方言）*。
 
 所以作为 Markdown 的新手，我的建议是先选择一个基础 Markdown 应用程序，这对于学习 Markdown 基础语法很有帮助。
+
+
 
 ## Markdown 基本语法
 
@@ -213,4 +243,3 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 插入你的代码
 ```
 ~~~
-
