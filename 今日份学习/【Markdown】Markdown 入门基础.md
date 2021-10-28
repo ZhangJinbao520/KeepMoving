@@ -59,8 +59,7 @@ Markdown 应用程序使用 **Markdown 处理器**将 Markdown文件输出为 <f
 <div align="center">
 <img src="https://img-blog.csdnimg.cn/1e42710f8c2b4f36ae9acebfa2c27fb0.png" />
 </div>
-
-**💬注意**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
+> **💬注意**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
 
 
 
@@ -79,7 +78,7 @@ Markdown 最初是为 Web 而设计的。
 - [**VuePress**](https://vuepress.vuejs.org/)：基于 Vue 构建的静态网站生成器
 - [**Jetpack 插件**](https://jetpack.com/)：专门用于 WordPress
 
-> 由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
+> **💬注意**：由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
 
 
 
