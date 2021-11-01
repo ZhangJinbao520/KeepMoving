@@ -34,63 +34,39 @@
 ## Python 可以做什么？
 
 - WEB 开发
-
-  > Django
-  >
-  > pyramid
-  >
-  > Tornado
-  >
-  > Bottle
-  >
-  > Flask
-  >
-  > WebPy
-
+  - Django
+  - pyramid
+  - Tornado
+  - Bottle
+  - Flask
+  - WebPy
+  - …
 - 网络编程
-
-  > requests
-  >
-  > Scrapy
-  >
-  > Twisted
-  >
-  > Paramiko
-
+  - requests
+  - Scrapy
+  - Twisted
+  - Paramiko
+  - …
 - 科学运算
-
-  > Pandas
-  >
-  > SciPy
-  >
-  > IPython
-
+  - Pandas
+  - SciPy
+  - IPython
+  - …
 - GUI 开发
-
-  > WxPython
-  >
-  > PyQT
-  >
-  > Kivy
-
+  - WxPython
+  - PyQT
+  - Kivy
+  - …
 - 运维自动化
-
-  > OpenStack
-  >
-  > SaltStack
-  >
-  > Ansible
-  >
-  > 腾讯蓝鲸
-
+  - OpenStack
+  - SaltStack
+  - Ansible
+  - 腾讯蓝鲸
+  - …
 - 游戏开发
-
 - 移动设备
-
 - 嵌入式设备
-
 - 云计算
-
 - 人工智能
 
 
@@ -235,3 +211,40 @@ Python 支持单个、多个变量同时赋值，如：
 >>> print(a, b, c)
 3 4 True
 ```
+
+
+
+## Python 数据类型
+
+在 Python 中，共有 6 种数据类型，分别是：
+
+- **Number**（数字）
+- **Str**（字符串）
+- **Tuple**（元组）
+- **List**（列表）
+- **Set**（集合）
+- **Dictionary**（字典）
+
+> 💬**注意**：其中Number、Str、Tuple 为<font color="purple">**不可变对象**</font>，List、Set、Dictionary 为<font color="purple">**可变对象**</font>。
+
+
+
+## Python 数据类型转换
+
+| 函数                                      | 说明                                         |
+| ----------------------------------------- | -------------------------------------------- |
+| int(obj)                                  | 将 obj 转换为一个整数                        |
+| float(obj)                                | 将 obj 转换为一个**浮点数**                  |
+| complex()                                 | 创建一个复数                                 |
+| str(obj)                                  | 将 obj 转换为**字符串**                      |
+| tuple(seq)                                | 将序列 seq 转换为一个元组                    |
+| list(seq)                                 | 将序列 seq 转换为一个**列表**                |
+| set(seq)                                  | 将序列 seq 转换为一个集合（可变）            |
+| frozenset(seq)                            | 将序列 seq 转换为一个**集合**（不可变）      |
+| dict()                                    | 创建一个字典                                 |
+| chr()                                     | 将一个整数转换为一个**字符**（Unicode 编码） |
+| ord()                                     | 将一个字符转换为一个**整数**（Unicode 编码） |
+| oct()                                     | 将一个整数转换为八进制**字符串**             |
+| hex()                                     | 将一个整数转换为十六进制**字符串**           |
+| <font color="purple">**repr(obj)**</font> | 将对象转换为表达式**字符串**                 |
+| <font color="purple">**eval()**</font>    | 解析表达式字符串，并返回一个**对象**         |

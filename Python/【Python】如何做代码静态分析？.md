@@ -43,8 +43,9 @@
 绝大多数 Bug 在编码阶段之后发现的。
 
 <div align="center">
-<img src="https://img-blog.csdnimg.cn/072f1f4f39ce46a79330eb1479c7d77e.png" />
+<img src="https://img-blog.csdnimg.cn/072f1f4f39ce46a79330eb1479c7d77e.png" name="Bug 发现"/>
 </div>
+
 
 
 
@@ -53,8 +54,9 @@
 假设在编码阶段发现缺陷只需 1 分钟修复，那么单元测试阶段需要 4 分钟、功能测试阶段需要 10 分钟、系统测试阶段需要 40 分钟、而发布之后可能需要 640 分钟。
 
 <div align="center">
-<img src="https://img-blog.csdnimg.cn/2e5e3018903944e88aac065567dfb91a.png" />
+<img src="https://img-blog.csdnimg.cn/2e5e3018903944e88aac065567dfb91a.png" name="Bug 修复成本" />
 </div>
+
 
 
 
@@ -63,7 +65,7 @@
 静态分析也称<font color="purple">静态测试</font>，是质量内建举措中测试左移的实践之一，在静态分析阶段即可发现缺陷问题的修复成本是很低的。
 
 <div align="center">
-<img src="https://img-blog.csdnimg.cn/e8e3ca5d86d547f581c8b0e976613cd7.png" />
+<img src="https://img-blog.csdnimg.cn/e8e3ca5d86d547f581c8b0e976613cd7.png" name="测试左移"/>
 </div>
 
 > “缺陷发现得越早，修复的成本越低。”——戴明曾

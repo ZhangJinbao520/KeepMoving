@@ -29,7 +29,6 @@ flowchart LR
 ```
 
 > 💬**注意**：在 C 中，当定义一个变量后，编译器就一定会给该变量分配内存，后续对该变量的读写是通过该内存地址实现的；而在 Python 中，只会给对象分配内存，。
->
 
  
 
@@ -50,6 +49,7 @@ flowchart LR
 <div align="center">
 <img src="https://img-blog.csdnimg.cn/201901142207438.png" name="Python 对象">
 </div>
+
 
 ### 不可变对象
 
@@ -95,6 +95,7 @@ True
 </div>
 
 
+
 ## 什么是浅拷贝（copy）？
 
 **仅拷贝父对象**，但不拷贝父对象中的子对象。
@@ -117,6 +118,7 @@ False
 </div>
 
 
+
 ## 什么是深拷贝（deepcopy）？
 
 **拷贝父对象，同时递归拷贝所有子对象**。
@@ -136,8 +138,9 @@ False
 ```
 
 <div align="center">
-<img src="https://www.runoob.com/wp-content/uploads/2017/03/1489720930-5882-BO4qO.png" name="浅拷贝" />
+<img src="https://www.runoob.com/wp-content/uploads/2017/03/1489720930-5882-BO4qO.png" name="深拷贝" />
 </div>
+
 
 
 ## Python 参数传递是值传递还是引用传递？
@@ -231,17 +234,7 @@ flowchart LR
 ### 可变对象\_外部不随内部变
 
 ```python
-# 可变对象
->>> def fun(b):
-...    b = [-1]  # 产生新对象
-...    return b
-
-
->>> a = [1]
->>> print(fun(a))
-[-1]
->>> print(a)
-[1]
+# 可变对象>>> def fun(b):...    b = [-1]  # 产生新对象...    return b>>> a = [1]>>> print(fun(a))[-1]>>> print(a)[1]
 ```
 
 ```mermaid
