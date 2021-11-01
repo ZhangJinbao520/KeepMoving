@@ -1,4 +1,4 @@
-<!-- title: 【Python】Python 入门基础（一） -->
+<!-- title: 【Python】Python 入门基础 -->
 <!-- date: 2021-10-26 12:21:51 -->
 <!-- Table of Content -->
 
