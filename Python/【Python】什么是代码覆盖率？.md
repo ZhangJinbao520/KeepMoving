@@ -71,7 +71,7 @@ def add（a, b）:
 
 判定覆盖覆盖<font color="purple">分支</font>，条件覆盖覆盖<font color="purple">表达式</font>。
 
-> **💬注意**：条件覆盖要求测试到**每个子表达式**的结果为 True 和 False 即可，未要求测试到每个条件表达式的结果（True, False）的排列组合。
+> **💬说明**：条件覆盖要求测试到**每个子表达式**的结果为 True 和 False 即可，未要求测试到每个条件表达式的结果（True, False）的排列组合。
 
 
 

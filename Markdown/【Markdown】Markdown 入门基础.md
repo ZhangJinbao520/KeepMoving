@@ -60,7 +60,7 @@ Markdown 应用程序使用 **Markdown 处理器**将 Markdown文件输出为 <f
 <img src="https://img-blog.csdnimg.cn/1e42710f8c2b4f36ae9acebfa2c27fb0.png" name="Markdown 工作原理" />
 </div>
 
-> **💬注意**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
+> **💬说明**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
 
 
 
@@ -79,7 +79,7 @@ Markdown 最初是为 Web 而设计的。
 - [**VuePress**](https://vuepress.vuejs.org/)：基于 Vue 构建的静态网站生成器
 - [**Jetpack 插件**](https://jetpack.com/)：专门用于 WordPress
 
-> **💬注意**：由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
+> **💬说明**：由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
 
 
 
@@ -87,7 +87,7 @@ Markdown 最初是为 Web 而设计的。
 
 在几乎所有方面，Markdown 都是记笔记的理想语法。
 
-**💬注意**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。
+**💬说明**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。
 
 
 
