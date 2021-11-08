@@ -1,5 +1,6 @@
-<!-- title: 【电子商务】类目、SPU、Item、SKU -->
-<!-- date: 2021-11-01 13:39:35 -->
+<!-- @title: 【电子商务】类目、SPU、Item、SKU -->
+<!-- @date: 2021-11-01 13:39:35 -->
+<!-- @author: Zhang Jinbao -->
 <!-- Table of Content -->
 
 [TOC]
@@ -13,7 +14,6 @@
 <div align="center">
 <img src="https://images.weserv.nl/?url=https://wx1.sinaimg.cn/large/8fa5dcfcgy1fz06l7bn09j20f00buacs.jpg" name="电商系统中的 SKU、SPU 数据库设计" />
 </div>
-
 
 
 ## SPU

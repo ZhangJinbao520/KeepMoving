@@ -1,5 +1,6 @@
-<!-- title: 【Python】Python 可变对象和不可变对象 -->
-<!-- date: 2021-10-27 15:53:12 -->
+<!-- @title: 【Python】Python 可变对象和不可变对象 -->
+<!-- @date: 2021-10-27 15:53:12 -->
+<!-- @author: Zhang Jinbao -->
 <!-- Table of Content -->
 
 [TOC]
@@ -101,7 +102,7 @@ True
 
 > 💬**注意**：子对象共享内存，指向同一个对象。
 
-> 💬**注意**：<font color="purple">**有序序列切片是一个浅拷贝的过程**。</font>
+> 💬**注意**：<font color="purple">**有序序列切片是一个浅拷贝过程**。</font>
 
 ```python
 >>> a = {1: [1, 2, 3]}

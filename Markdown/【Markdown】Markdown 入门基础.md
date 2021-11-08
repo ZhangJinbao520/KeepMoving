@@ -1,5 +1,6 @@
-<!-- title: 【Markdown】Markdown 入门基础 -->
-<!-- date: 2021-10-22 13:16:30 -->
+<!-- @title: 【Markdown】Markdown 入门基础 -->
+<!-- @date: 2021-10-22 13:16:30 -->
+<!-- @author: Zhang Jinbao -->
 <!-- Table of Content -->
 
 [TOC]
@@ -196,6 +197,9 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 
 // 删除线
 	~~删除线~~
+
+// 高亮
+	==高亮==
 ```
 
 ### 超链接

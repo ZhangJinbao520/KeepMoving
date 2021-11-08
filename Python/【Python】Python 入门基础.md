@@ -1,5 +1,6 @@
-<!-- title: 【Python】Python 入门基础 -->
-<!-- date: 2021-10-26 12:21:51 -->
+<!-- @title: 【Python】Python 入门基础 -->
+<!-- @date: 2021-10-26 12:21:51 -->
+<!-- @author: Zhang Jinbao -->
 <!-- Table of Content -->
 
 [TOC]
@@ -216,16 +217,19 @@ Python 支持单个、多个变量同时赋值，如：
 
 ## Python 数据类型
 
-在 Python 中，共有 6 种数据类型，分别是：
+在 Python 中，共有 8 种数据类型，分别是：
 
-- **Number**（数字）
-- **Str**（字符串）
-- **Tuple**（元组）
-- **List**（列表）
-- **Set**（集合）
-- **Dictionary**（字典）
+- **bool**（布尔）
+- **int**（整数）
+- **float**（浮点数）
+- **complex**（复数）
+- **str**（字符串）
+- **tuple**（元组）
+- **list**（列表）
+- **set**（集合）
+- **dict**（字典）
 
-> 💬**注意**：其中Number、Str、Tuple 为<font color="purple">**不可变对象**</font>，List、Set、Dictionary 为<font color="purple">**可变对象**</font>。
+> 💬**注意**：其中bool、int、float、str、tuple 为<font color="purple">**不可变对象**</font>，list、set、dict 为<font color="purple">**可变对象**</font>。
 
 
 
@@ -233,6 +237,7 @@ Python 支持单个、多个变量同时赋值，如：
 
 | 函数                                      | 说明                                         |
 | ----------------------------------------- | -------------------------------------------- |
+| boo(obj)                                  | 将 obj 转换为一个布尔值                      |
 | int(obj)                                  | 将 obj 转换为一个整数                        |
 | float(obj)                                | 将 obj 转换为一个**浮点数**                  |
 | complex()                                 | 创建一个复数                                 |
