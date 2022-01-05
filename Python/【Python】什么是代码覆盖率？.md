@@ -23,7 +23,7 @@
 
 ## 如何做代码覆盖率？
 
-### 语句覆盖（StatementCoverage）
+### 语句覆盖（Statement Coverage）
 
 语句覆盖又称为***行覆盖（LineCoverage）、段覆盖（SegmentCoverage）、基本块覆（BasicBlockCoverage）***。
 
