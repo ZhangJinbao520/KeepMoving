@@ -1,7 +1,6 @@
 <!-- @title: 【Python】Python 异常处理 -->
 <!-- @date: 2021-10-29 11:06:25 -->
 <!-- @author: Zhang Jinbao -->
-<!-- Table of Content -->
 
 [TOC]
 
@@ -11,7 +10,7 @@
 
 当运行可能会出错的代码时，需要适当地添加异常处理程序，以便于阻止潜在的错误发生。
 
-> 💬**注意**：异常也是 Python 对象，表示一个错误事件。
+> 💬注意：异常也是 Python 对象，表示一个错误事件。
 
 
 
@@ -21,7 +20,7 @@
 
 捕获异常原理：检测 `try` 代码块中的错误，让 `except` 代码块捕获异常信息并处理。
 
-> 💬**注意**：`try` 代码块有且仅有一个，但 `except` 代码块可以有多个且每个 `except` 代码块可同时处理多种异常
+> 💬注意：`try` 代码块有且仅有一个，但 `except` 代码块可以有多个且每个 `except` 代码块可同时处理多种异常
 
 
 
@@ -29,9 +28,9 @@
 
 在 Python 中，每个异常也是一个对象，可使用如何下方法获取当前异常的相关信息：
 
-- <font color="purple">**e.args**</font>：返回异常信息的错误编号和描述字符串
-- <font color="purple">**str(e)**</font>：返回异常信息，但不包括异常信息的类型
-- <font color="purple">**repr(e)**</font>：返回较全的异常信息，包括异常信息的类型
+- <font color="purple">e.args</font>：返回异常信息的错误编号和描述字符串
+- <font color="purple">str(e)</font>：返回异常信息，但不包括异常信息的类型
+- <font color="purple">repr(e)</font>：返回较全的异常信息，包括异常信息的类型
 
 ```python
 >>> try:
@@ -85,7 +84,7 @@ else:
     未发生异常的代码块
 ```
 
-> 💬**注意**：当 `try` 代码块有 return 代码时，不会执行 `else` 代码块。
+> 💬注意：当 `try` 代码块有 return 代码时，不会执行 `else` 代码块。
 
 ### 举个栗子🌰
 
@@ -112,7 +111,7 @@ finally:
   	最后一定会执行的代码块
 ```
 
-> 💬**注意**：不管 `try` 代码块是否有 return 代码时，都会执行 `finally` 代码块。
+> 💬注意：不管 `try` 代码块是否有 return 代码时，都会执行 `finally` 代码块。
 
 ### 举个栗子🌰
 

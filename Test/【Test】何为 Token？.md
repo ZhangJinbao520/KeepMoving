@@ -1,7 +1,6 @@
 <!-- @title: 【Test】何为 Token？ -->
 <!-- @date: 2021-10-29 18:13:21 -->
 <!-- @author: Zhang Jinbao -->
-<!-- Table of Content -->
 
 [TOC]
 
@@ -18,7 +17,7 @@
 
 ## 技术定义
 
-服务端（Server）生成的字符串，以作为客户端（Client）进行请求的**访问令牌**。
+服务端（Server）生成的字符串，以作为客户端（Client）进行请求的访问令牌。
 
 - 第一次登陆（客户端）
   - 服务端生成一个 Token
@@ -36,6 +35,6 @@
 
 ## Token 定义
 
-- <font color="purple">**设备号**</font>
-- <font color="purple">**设备 MAC 地址**</font>
-- <font color="purple">**session 值**</font>
+- <font color="purple">设备号</font>
+- <font color="purple">设备 MAC 地址</font>
+- <font color="purple">session 值</font>

@@ -1,7 +1,6 @@
 <!-- @title: 【Python】什么是代码覆盖率？ -->
 <!-- @date: 2021-10-22 13:16:30 -->
 <!-- @author: Zhang Jinbao -->
-<!-- Table of Content -->
 
 [TOC]
 
@@ -25,11 +24,11 @@
 
 ### 语句覆盖（Statement Coverage）
 
-语句覆盖又称为***行覆盖（LineCoverage）、段覆盖（SegmentCoverage）、基本块覆（BasicBlockCoverage）***。
+语句覆盖又称为*行覆盖（LineCoverage）、段覆盖（SegmentCoverage）、基本块覆（BasicBlockCoverage）*。
 
 语句覆盖被称为<font color="blue">`最弱覆盖`</font>，难以发现复杂问题。
 
-度量被测代码中<font color="purple">**每个可执行语句**</font>是否被执行到，不包括：头文件声明（C）、代码注释、空行等，如：
+度量被测代码中<font color="purple">每个可执行语句</font>是否被执行到，不包括：头文件声明（C）、代码注释、空行等，如：
 
 ```python
 def add（a, b）:  # 语句一
@@ -44,9 +43,9 @@ def add（a, b）:  # 语句一
 
 ### 判定覆盖（DecisionCoverage）
 
-判定覆盖又称为***分支覆盖（BranchCoverage）、所有边界覆盖（All-EdgesCoverage）、基本路径覆盖（BasicPathCoverage）、判定路径覆盖（Decision-Decision-Path）***。
+判定覆盖又称为*分支覆盖（BranchCoverage）、所有边界覆盖（All-EdgesCoverage）、基本路径覆盖（BasicPathCoverage）、判定路径覆盖（Decision-Decision-Path）*。
 
-度量被测代码中<font color="purple">**每个可判定分支**</font>是否被执行到，如：
+度量被测代码中<font color="purple">每个可判定分支</font>是否被执行到，如：
 
 ```python
 def add（a, b）:
@@ -60,7 +59,7 @@ def add（a, b）:
 
 ### 条件覆盖（ConditionCoverage）
 
-度量判定覆盖中<font color="purple">**每个子表达式结果（True/False）**</font>是否被执行到，如：
+度量判定覆盖中<font color="purple">每个子表达式结果（True/False）</font>是否被执行到，如：
 
 ```python
 def add（a, b）:
@@ -72,7 +71,7 @@ def add（a, b）:
 
 判定覆盖覆盖<font color="purple">分支</font>，条件覆盖覆盖<font color="purple">表达式</font>。
 
-> **💬说明**：条件覆盖要求测试到**每个子表达式**的结果为 True 和 False 即可，未要求测试到每个条件表达式的结果（True, False）的排列组合。
+> 💬说明</font>：条件覆盖要求测试到每个子表达式的结果为 True 和 False 即可，未要求测试到每个条件表达式的结果（True, False）的排列组合。
 
 
 
@@ -82,7 +81,7 @@ def add（a, b）:
 
 路径覆盖被称为<font color="blue">`最强覆盖`</font>。
 
-度量被测代码中<font color="purple">**函数的每个分支**</font>是否被执行到，如：
+度量被测代码中<font color="purple">函数的每个分支</font>是否被执行到，如：
 
 ```python
 def add（a, b）:
@@ -102,7 +101,7 @@ def add（a, b）:
 
 ### 循环覆盖（LoopCoverage）
 
-度量被测代码中**每个循环体**是否被执行了零次、一次和 N 次循环。
+度量被测代码中每个循环体是否被执行了零次、一次和 N 次循环。
 
 
 
