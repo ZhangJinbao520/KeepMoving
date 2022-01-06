@@ -1,7 +1,6 @@
 <!-- @title: 【Markdown】Markdown 入门基础 -->
 <!-- @date: 2021-10-22 13:16:30 -->
 <!-- @author: Zhang Jinbao -->
-<!-- Table of Content -->
 
 [TOC]
 
@@ -23,9 +22,9 @@ Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ Joh
 
 [^1]: [Markdown 创建者编写的原始指南](https://daringfireball.net/projects/markdown/)：不再维护（上次更新于 2004 年 12 月）
 
-- 易读易写
-- 纯文本
-- 语法简单
+- **易读易写**
+- **纯文本**
+- **语法简单**
 
 
 
@@ -33,7 +32,7 @@ Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ Joh
 
 - John Gruber [介绍 Markdown](https://daringfireball.net/2004/03/introducing_markdown) - 2004 年 3 月 15 日
 
-  > 我编写了一个名为 Markdown 的文本到 HTML 格式工具，现在可以下载。
+  > 我编写了一个名为 Markdown 文本格式转化工具，现在可以下载。
 
 - John Gruber [Dive into Markdown](https://daringfireball.net/2004/03/dive_into_markdown) - 2004 年 3 月 19 日
 
@@ -45,23 +44,31 @@ Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ Joh
 
 ## 为什么要用 Markdown？
 
-- 可移植性（由于是纯文本）
-- 独立性（兼容任何操作系统）
-- 未来性（适应未来变化）
+- **可移植性**
+
+  Markdown 是纯文本文件。
+
+- **独立性**
+
+  兼容任何操作系统。
+
+- **未来性**
+
+  适应未来变化。
 
 
 
 ## Markdown 工作原理
 
-以`.md`或`.Markdown`为扩展名的文件，默认均视为 Markdown 文件。
+以 `.md` 或 `.Markdown` 为扩展名的文件，默认均视为 Markdown 文件。
 
-Markdown 应用程序使用 **Markdown 处理器**将 Markdown文件输出为 <font color="purple">**HTML 格式**</font>。
+Markdown 应用程序使用 **Markdown 处理器**将 Markdown 文件输出为<font color="purple" style="font-weight: bold;"> HTML 格式</font>。
 
 <div align="center">
 <img src="https://img-blog.csdnimg.cn/1e42710f8c2b4f36ae9acebfa2c27fb0.png" name="Markdown 工作原理" />
 </div>
 
-> **💬说明**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
+> 💬说明： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
 
 
 
@@ -73,14 +80,14 @@ Markdown 最初是为 Web 而设计的。
 
 如果你需要将 Markdown 文件进行转换为网站，可以试试以下工具：
 
-- [**Jekyll**](http://jekyllcn.com/)： Markdown 网站生成器👍🏻
-- [**Read the Docs**](https://readthedocs.org/)： Markdown 网站生成器
-- [**MkDocs**](https://www.mkdocs.org/)：静态网站生成器，专门用于构建项目文档，支持 YAML
-- [**Docusaurus**](https://www.docusaurus.cn/)：静态网站生成器，专门用于创建文档网站，支持翻译、搜索和版本控制
-- [**VuePress**](https://vuepress.vuejs.org/)：基于 Vue 构建的静态网站生成器
-- [**Jetpack 插件**](https://jetpack.com/)：专门用于 WordPress
+- [Jekyll](http://jekyllcn.com/)： Markdown 网站生成器👍🏻👍🏻👍🏻
+- [Read the Docs](https://readthedocs.org/)： Markdown 网站生成器
+- [MkDocs](https://www.mkdocs.org/)：静态网站生成器，专门用于构建项目文档，支持 YAML
+- [Docusaurus](https://www.docusaurus.cn/)：静态网站生成器，专门用于创建文档网站，支持翻译、搜索和版本控制
+- [VuePress](https://vuepress.vuejs.org/)：基于 Vue 构建的静态网站生成器
+- [Jetpack 插件](https://jetpack.com/)：专门用于 WordPress
 
-> **💬说明**：由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等等。
+> ***💬说明**：由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 能轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等。*
 
 
 
@@ -88,7 +95,7 @@ Markdown 最初是为 Web 而设计的。
 
 在几乎所有方面，Markdown 都是记笔记的理想语法。
 
-**💬说明**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。
+> ***💬说明**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。*
 
 
 
@@ -165,7 +172,7 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 
 ## 什么是 Markdown 方言？
 
-由于每个 Markdown 应用程序都会实现稍有不同的 Markdown 语言，这些变体通常称之为 *flavors（方言）*。
+由于每个 Markdown 应用程序都会实现稍有不同的 Markdown 语言，这些变体通常称之为 ***flavors（方言）***。
 
 所以作为 Markdown 的新手，我的建议是先选择一个基础 Markdown 应用程序，这对于学习 Markdown 基础语法很有帮助。
 
