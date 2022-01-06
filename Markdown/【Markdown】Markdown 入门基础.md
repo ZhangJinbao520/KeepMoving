@@ -62,13 +62,13 @@ Markdown 是一种用于编写结构化文档的纯文本格式约定，由[ Joh
 
 以 `.md` 或 `.Markdown` 为扩展名的文件，默认均视为 Markdown 文件。
 
-Markdown 应用程序使用 **Markdown 处理器**将 Markdown 文件输出为<font color="purple" style="font-weight: bold;"> HTML 格式</font>。
+Markdown 应用程序使用 **Markdown 处理器**将 Markdown 文件输出为<font color="purple"> **HTML 格式**</font>。
 
 <div align="center">
 <img src="https://img-blog.csdnimg.cn/1e42710f8c2b4f36ae9acebfa2c27fb0.png" name="Markdown 工作原理" />
 </div>
 
-> 💬说明： Markdown 应用程序和 Markdown 处理器是两个不同的组件。
+> ***💬说明**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。*
 
 
 
@@ -89,15 +89,11 @@ Markdown 最初是为 Web 而设计的。
 
 > ***💬说明**：由于[ GitHub Pages ](https://pages.github.com/)就是基于 Jekyll 构建的，所以使用 Jekyll 能轻而易举地在 GitHub 上免费发布网站——[自定义域名](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)等。*
 
-
-
 ### 笔记
 
 在几乎所有方面，Markdown 都是记笔记的理想语法。
 
 > ***💬说明**：目前[ Everynote ](https://www.yinxiang.com/)和 [ OneNote ](https://www.onenote.com//)均不支持 Markdown，个人推荐使用[语雀](https://www.yuque.com/)👍🏻。*
-
-
 
 ### 文档
 
@@ -105,15 +101,11 @@ Markdown 非常适合编写技术文档。
 
 可以使用 Markdown 文档创作工具创建 Markdown文件，并将其导出为 PDF 、或 HTML 、或其他格式。
 
-
-
 ### 书籍
 
 想要自行出版小说？建议试试[ Leanpub ](https://leanpub.com/)，它可以将你的 Markdown 文件转换为 PDF/EPUB/MOBI 格式的电子书。
 
 如果想出版纸质书籍，可以将 PDF 文件上传到类似[ Kindle Direct Publishing ](https://kdp.amazon.com/en_US/)的服务提供商，给💰它们会帮你进行出版。
-
-
 
 ### 演示文稿
 
@@ -125,8 +117,6 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - [Cleaver](https://jdan.github.io/cleaver/)
 - [Deckset](https://www.deckset.com/)
 - [Marked2](https://marked2app.com/)
-
-
 
 ### 邮件
 
@@ -147,8 +137,6 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - [光谷社区](https://www.guozaoke.com/)
 - ...
 
-
-
 ### 代码托管平台
 
 - [GitHub](https://github.com/)
@@ -157,8 +145,6 @@ Markdown 文件可以转换成演示文稿（即：PPT）。
 - [BitBucket](https://bitbucket.org/)
 - [Coding](https://coding.net/)
 - ...
-
-
 
 ### 开源项目
 
