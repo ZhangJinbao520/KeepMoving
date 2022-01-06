@@ -68,7 +68,7 @@ Markdown 应用程序使用 **Markdown 处理器**将 Markdown 文件输出为<f
 <img src="https://img-blog.csdnimg.cn/1e42710f8c2b4f36ae9acebfa2c27fb0.png" name="Markdown 工作原理" />
 </div>
 
-> ***💬说明**： Markdown 应用程序和 Markdown 处理器是两个不同的组件。*
+> ***💬说明**：Markdown 应用程序和 Markdown 处理器是两个不同的组件。*
 
 
 
